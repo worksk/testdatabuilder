@@ -1,4 +1,4 @@
-package cn.shujuguan.ot.databuild;
+package cn.datainfo.ot.databuild;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

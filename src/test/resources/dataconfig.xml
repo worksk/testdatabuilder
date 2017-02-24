@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataConfig>
+   <datas>
+       <data type="csv:db:excel" name="dataname" record="10000" config="csvconfig" tableName="tablename">
+           <column type="" subType="" reapet=""/>       
+       </data>
+   </datas>
+   <configs>
+       <config name="csvconfig" type="csv">
+       <![CDATA[
+           {
+             "path":"/home/glen/temp/out.csv"           
+           }
+       ]]>
+       </config>
+       <config name="csvconfig" type="excel">
+       <![CDATA[
+           {
+             "path":"/home/glen/temp/out.csv"           
+           }
+       ]]>
+       </config>
+       <config name="csvconfig" type="gbase8a">
+       <![CDATA[
+           {
+             "driverClass":"com.gbase.jdbc.Driver",
+             "jdbcUrl":"jdbc:gbase://10.0.15.191/?user=root&password=shujuguan&failoverEnable=true&hostList=10.0.15.192,10.0.15.193&gclusterId=gcl",
+             "password":"com.gbase.jdbc.Driver",
+             "database":"testtable"
+           }
+       ]]>
+       </config>                     
+   </configs>
+</dataConfig>
